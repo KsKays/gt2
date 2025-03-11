@@ -18,7 +18,7 @@ jobs:
         with:
           image: ${{ github.event.repository.name }}
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: kskays
           password: ${{ secrets.GITHUB_TOKEN }}
 
 
